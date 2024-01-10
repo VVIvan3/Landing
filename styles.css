@@ -1,5 +1,5 @@
 html {
-    background: white;
+    background-color: black;
 }
 
 body {
@@ -89,6 +89,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: space-between;
+    background-color: white;
 }
 
 .wrapper {
@@ -113,10 +114,6 @@ a {
 }
 
 .img {
-    max-width: 215px;
-    max-height: 215px;
-    min-height: 125px;
-    min-width: 125px;
     height: 200px;
     width: 200px;
     background-color: gray;
@@ -132,3 +129,67 @@ a {
     text-align: center;
 }
 
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    background-color: #E5E7EB;
+}
+.quotation {
+    max-width: 55%;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937
+}
+.author {
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.action {
+    display: flex;
+    background-color: white;
+    padding: 56px 25px;
+    justify-content: center;
+}
+
+.actionwrapper {
+    flex: 1 1 0;
+    max-width: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    padding: 16px 38px;
+}
+
+.actiontext {
+    display: flex;
+    flex-direction: column;
+}
+
+.actiontitle {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.actionmain {
+    color: white;
+    font-size: 14px;
+}
+
+.footer {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 14px;
+}
