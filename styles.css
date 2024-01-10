@@ -5,7 +5,7 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    margin: 0 50px;
+    margin: 0 1%;
 }
 
 .header,
@@ -53,6 +53,8 @@ a {
     padding-bottom: 56px;
     justify-content: center;
     gap: 10%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .herotext {
@@ -79,5 +81,54 @@ a {
     height: auto;
     background-color: grey;
     flex-shrink: 1;
+}
+
+.gallery {
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.img {
+    max-width: 215px;
+    max-height: 215px;
+    min-height: 125px;
+    min-width: 125px;
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+    flex-shrink: 1;
+}
+
+.text {
+    flex-shrink: 1;
+    max-width: 200px;
+}
+
+.gallerytitle {
+    text-align: center;
 }
 
